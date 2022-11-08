@@ -61,13 +61,14 @@ header {
 .flex-container {
     position: absolute;
     width: 400px;
-    height: 415px;
+    height: 445px;
     background-color:grey;
     border-radius: 15%;
     right: 600px;
 }
 
 .flex-container .flex-item {
+    margin-top: 10px;
     position: relative;
     margin-left: 55px;
 }
