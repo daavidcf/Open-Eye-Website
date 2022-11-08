@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Open Eye Studio</title>
+    <link rel="stylesheet" href="styleContact.css">
+</head>
+<body style="background-color: #fac51f;">
+    <header>
+        <div class="center">
+            <div class="logo">
+                <img src="assets/Open-Eye-logo-vetor-preenchido.png" alt="Logo Open Eye Produções" height="150px" width="150px">
+            </div>
+            <div class="menu">
+                <a href="indexV2.html" data-text="HOMEPAGE">HOMEPAGE</a>
+                <a href="contact.html" data-text="CONTATO">CONTATO</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+
+        <div class="center">
+
+            <div class="flex-container">
+                <div class="flex-item basic-text">
+                    <h2>Entre em contato conosco!</h2>
+                </div>
+
+                <div class="flex-item">
+                    <form class="forms">
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+
+                        <label for="lname">Sobrenome:</label><br>
+                        <input type="text" id="lname" name="lname" required><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" required><br>
+
+                        <label for="phone">Telefone:</label><br>
+                        <input type="number" id="number" required><br>
+
+                        <label for="message">Mensagem:</label><br>
+                        <input type="text" id="message"><br>
+
+                    </form>
+
+                    <form class="forms">
+                        <p>Está entrando em contato em nome de uma empresa?</p>
+                        <input type="radio" id="yes" name="y/n" value="Sim">
+                        <label for="yes">Sim</label>
+
+                        <input type="radio" id="no" name="y/n" value="Não">
+                        <label for="no">Não</label>
+                    </form>
+
+                    <form class="forms">
+                        <label for="company">Se sim, qual o nome da empresa?</label><br>
+                        <input type="text" id="company">
+                    </form><br>
+
+                    <input class="button-enviar" type="submit" value="Enviar">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>

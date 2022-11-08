@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    padding: 10px 0;
+}
+
+.center {
+    display: flex;
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 1020px;
+    text-align: right;
+}
+
+.menu a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration:none;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin-right: 100px;
+    position: relative;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.menu a::before {
+    content:attr(data-text);
+    position: absolute;
+    color:black;
+    width: 0%;
+    overflow: hidden;
+    transition: 1.2s;
+    border-right: 4px solid black;
+}
+
+.menu a:hover::before {
+    width: 100%;
+}
+
+.flex-container {
+    position: absolute;
+    width: 400px;
+    height: 415px;
+    background-color:grey;
+    border-radius: 15%;
+    right: 600px;
+}
+
+.flex-container .flex-item {
+    position: relative;
+    margin-left: 55px;
+}
+
+.flex-container .flex-item .forms input {
+    padding: 4px;
+    border: none;
+    box-shadow: 0 0 15px 4px rgba(51, 49, 49, 0.775);
+    border-radius: 10px;
+}
+
+.flex-container .flex-item .button-enviar {
+    margin-left: 98px;
+    border: 0;
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.flex-container .flex-item .button-enviar:hover {
+    color: #fac51f;
+}
