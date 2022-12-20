@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&display=swap');
 
 * {
     margin: 0;
@@ -17,11 +18,20 @@ header {
     padding: 10px 0;
 }
 
+#homepage-title {
+    font-weight: bold;
+}
+
 .center {
     display: flex;
     width: 1920px;
     margin: 0 auto;
     padding: 0 2%;
+}
+
+#logo-header {
+    height: 180px;
+    width: 176px;
 }
 
 .text-about button {
@@ -106,15 +116,35 @@ header {
 
 .flex-item-2 img {
     transition: transform .2s;
-    width: 170px;
-    height: 100px;
+    width: 145px;
+    height: 95px;
     margin: 0 auto;
     background-color: #fac51f;
     border-radius: 10px;
 }
 
 .flex-item-2 img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+.flex-item-2 #DFC {
+    width: 149px;
+    height: 145px;
+}
+
+.flex-item-2 #QP {
+    width: 200px;
+    height: 99px;
+}
+
+.flex-item-2 #TWOH {
+    width: 198px;
+    height: 160px;
+}
+
+.flex-item-2 #DSCF {
+    height: 120px;
+    width: 267px;
 }
 
 section .black-circle {
@@ -131,5 +161,5 @@ section .hand-grenade {
     position: absolute;
     background:transparent;
     bottom: -80px;
-    right: 40px;
+    right: 20px;
 }
